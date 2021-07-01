@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" referrerpolicy="no-referrer" />
+	<title></title>
+</head>
+<body>
+
+	<section>
+		<div class="hero_section">
+			<nav>
+				<div class="logo">
+					<img src="assets/img/logo.svg">
+				</div>
+				<div class="right_box">
+					<p>Menu</p>
+					<span class="menu_bar"></span>
+				</div>
+
+				<div class="nav_box">
+					<div class="content">
+						<div class="top">
+							<h4>TRANSCEND STUDIO</h4>
+							<ion-icon name="close" id="close"></ion-icon>
+						</div>
+						<div class="nav_link">
+							<ul>
+								<li><a href=""><span>01.</span> Home</a></li>
+								<li><a href=""><span>02.</span> About</a></li>
+								<li><a href=""><span>03.</span> Services</a></li>
+								<li><a href=""><span>04.</span> Works</a></li>
+								<li><a href=""><span>05.</span> Contact</a></li>
+							</ul>
+						</div>
+						<div class="conBox">
+							<p>Perspiciatis hic praesentium nesciunt. Et neque a dolorum <a href="">voluptatem</a> porro iusto sequi veritatis libero enim. Iusto id suscipit veritatis neque reprehenderit.</p>
+						</div>
+						<div class="nav_social_link">
+							<ul>
+								<li><a href=""><i class="fab fa-facebook-square"></i></a></li>
+								<li><a href=""><i class="fab fa-twitter"></i></a></li>
+								<li><a href=""><i class="fab fa-instagram"></i></a></li>
+								<li><a href=""><i class="fab fa-behance"></i></a></li>
+								<li><a href=""><i class="fab fa-dribbble"></i></a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</nav>
+			<!-- nav end here -->
+
+			<div class="banner_section">
+				<h2>Hello folks, we are<br> Transcend Studio.</h2>
+				<div class="feature">
+					<div></div>
+					<p>We create stunning digital experiences<br>
+						that will help your business stand out.</p>
+				</div>
+
+				<div class="social">
+					<p>Follow Us</p>
+					<span></span>
+					<a href="#">Facebook</a>
+					<a href="#">Twitter</a>
+					<a href="#">LinkedIn</a>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+	<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+	<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" referrerpolicy="no-referrer"></script>
+
+	<script type="text/javascript">
+		$('.right_box').click(()=>{
+			$('.nav_box').addClass('active');
+		});
+		$('.nav_box #close').click(()=>{
+			$('.nav_box').removeClass('active');
+		});
+	</script>
+
+</body>
+</html>
